@@ -11,12 +11,12 @@ console.log(name1)
  //a = 50
 //var x = a+10
 
-var foo = 'hello'+'welcome'
+var foo1 = 'hello'+'welcome'
 //var ishuman = true
 var z1=10
 var z2 = 5
 var z3 = z1-z2
-console.log(foo)
+console.log(foo1)
 //console.log(10+40)
 //console.log(a+45)
 var aa = 50

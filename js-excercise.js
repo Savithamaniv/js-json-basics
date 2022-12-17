@@ -32,6 +32,47 @@ function isboolean(bo1) {
   console.log('Checking boolean value');
 console.log(isboolean(6000));
 console.log(isboolean(2000));
+ // Function to find cube root 
+ let cb1;
+ let cubrt; 
+function cuberoot(cb1){
+     cubrt = Math.cbrt(cb1);
+     console.log('Cube root is');
+    console.log(cubrt);
+}
+  cuberoot(1000);
+  //console.log(cuberoot(8));
   
-  let cubrt = Math.cbrt(125);
-  console.log(cubrt);
+  //Farenheit to Celsius
+let tocel;
+let fahrenheit;
+function toCelsius(fahrenheit) {
+ tocel= (5/9) * (fahrenheit-32)
+  console.log('To celsius');
+  console.log (tocel) ;
+  }
+  toCelsius(85);
+let inches;
+let Feet;
+
+// Function to convert inches to Feet
+function inchesToFeet(inches) {
+console.log('Inches to Feet');
+  console.log( Feet =  inches / 12);
+}
+inchesToFeet(72);
+//Function return KG to pounds and Vice versa
+let innum;
+let ip;
+function findkglbs(innum,ip){
+  if (ip == "kgs"){
+    retval = (innum * 2.2 );
+    console.log(innum,ip,'=',retval,'lbs"');
+  }
+    else{
+      retval = innum/2.2;
+      console.log(innum,ip,'=',retval,'kgs"');
+    }
+  }
+findkglbs(40,'lbs');
+findkglbs(80,'kgs');

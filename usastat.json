@@ -1,0 +1,15 @@
+{
+    "country":"USA",
+    "State":"Indiana",
+    "City":"Fishers",
+    "School":"Fisher High School",
+    "Number of Students":412,
+    "Address":{
+        "Add1":"11303 Fiddlers creek pass",
+        "Add2":"Apt 101",
+        "County":"Hamilton",
+        "zip":46250
+    },
+    "Population":"2k",
+    "Activities":["Outdoor" ,"Trails" ,"Fishing"]
+}
